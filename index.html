@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dianne Llanos - Art Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111827;
+      color: #f3f4f6;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Header -->
+  <header class="bg-gray-900 py-20 text-center fade-in">
+    <h1 class="text-5xl font-bold">Dianne Llanos</h1>
+    <p class="mt-4 text-xl text-gray-400">Digital Painting · Photography · Animation</p>
+    <a href="#portfolio" class="mt-6 inline-block bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded-full">View My Work</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">About Me</h2>
+    <p class="text-gray-300 mb-6">Quality Assurance Specialist with 3+ years of experience ensuring accuracy, efficiency, and compliance. Skilled in error detection, workflow optimization, and data management. Detail-oriented Data Entry Analyst with expertise in handling large datasets. I also express creativity through digital painting, photography, and animation, merging technical precision with artistic passion.</p>
+
+    <h3 class="text-2xl font-semibold mb-2">Expertise</h3>
+    <ul class="list-disc list-inside text-gray-400 mb-6">
+      <li>Quality Assurance & Compliance</li>
+      <li>Data Entry & Management</li>
+      <li>Team Collaboration & Training</li>
+    </ul>
+
+    <h3 class="text-2xl font-semibold mb-2">Tools & Technologies</h3>
+    <ul class="list-disc list-inside text-gray-400 mb-6">
+      <li>Microsoft Excel & Google Sheets</li>
+      <li>Rocket Reach</li>
+      <li>Salesforce</li>
+      <li>Hubstaff</li>
+    </ul>
+
+    <h3 class="text-2xl font-semibold mb-2">Languages</h3>
+    <ul class="list-disc list-inside text-gray-400 mb-6">
+      <li>English</li>
+      <li>Tagalog</li>
+    </ul>
+
+    <h3 class="text-2xl font-semibold mb-2">Experience</h3>
+    <div class="mb-4">
+      <p class="font-medium text-white">Data Entry Analyst – Shangli Information Technology (Shanghai) Co., Ltd. (2024–Present)</p>
+      <ul class="list-disc list-inside text-gray-400">
+        <li>Managed, verified, and maintained accurate data.</li>
+        <li>Ensured data integrity through quality checks.</li>
+        <li>Improved data entry processes.</li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <p class="font-medium text-white">Quality Assurance Specialist – Remotasks (2021–2024)</p>
+      <ul class="list-disc list-inside text-gray-400">
+        <li>Conducted audits, identified quality issues, and optimized workflows.</li>
+        <li>Prepared reports on performance metrics.</li>
+        <li>Trained team members on QA best practices.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-16 px-4 max-w-6xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-8 border-b border-gray-700 pb-2">Portfolio</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
+        <img src="art1.jpg" alt="Artwork 1" class="w-full h-60 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-medium">Digital Painting</h3>
+          <p class="text-sm text-gray-400">Fantasy-themed character illustration</p>
+        </div>
+      </div>
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
+        <img src="photo1.jpg" alt="Photography" class="w-full h-60 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-medium">Photography</h3>
+          <p class="text-sm text-gray-400">Urban exploration photo series</p>
+        </div>
+      </div>
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
+        <img src="animation1.gif" alt="Animation" class="w-full h-60 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-medium">Animation</h3>
+          <p class="text-sm text-gray-400">Looped character walk cycle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="py-16 px-4 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">Blog</h2>
+    <p class="text-gray-400">Coming soon: tutorials, behind-the-scenes, and artistic thoughts.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-4 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">Contact</h2>
+    <p class="mb-4 text-gray-400">Interested in working together or just want to say hello? Drop me a message.</p>
+    <ul class="mb-6 text-gray-400">
+      <li>Phone: 09531576180</li>
+      <li>Email: llanos.dianne20@gmail.com</li>
+      <li>Location: Barili, Cebu 6036</li>
+    </ul>
+    <form class="grid gap-4">
+      <input type="text" placeholder="Name" class="px-4 py-2 bg-gray-800 text-white rounded">
+      <input type="email" placeholder="Email" class="px-4 py-2 bg-gray-800 text-white rounded">
+      <textarea placeholder="Your message..." rows="5" class="px-4 py-2 bg-gray-800 text-white rounded"></textarea>
+      <button type="submit" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 border-t border-gray-700 fade-in">
+    &copy; 2025 Dianne Llanos. All rights reserved.
+  </footer>
+</body>
+</html>
